@@ -1,0 +1,21 @@
+{
+  "name": "portalv5",
+  "description": "Lembrar de alterar o nome da pasta do projeto no caso ela foi  criado com o nome portalv4, ou seja, se for necessario alterar o nome do projeto para o nome da sua empresa, por exemplo, piocoroSA entao voce devera altera o DocumentRoot e tambem o Directory",
+  "main": "index.js",
+  "authors": [
+    "Nome de voces"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/melhoridadesa/portalv5",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "*"
+  }
+}
