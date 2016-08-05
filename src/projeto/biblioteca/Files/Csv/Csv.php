@@ -13,8 +13,18 @@ namespace projeto\biblioteca\Files\Csv;
 
 class Csv
 {
-	public function __construct()
-	{
-		echo 'teste';
-	}
+	public function somar($val1, $val2)
+    {
+        if (is_numeric($val1) && is_numeric($val2)) {
+            return $val1 + $val2;
+        }
+        
+        return false;
+    }
+
+
+    public function getSoma()
+    {
+    	return $soma;
+    }
 }
