@@ -14,11 +14,11 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 ));
 
 //Exemplo de registro de log e utilização
-/*$app->register(new Silex\Provider\MonologServiceProvider(), array(
-    'monolog.logfile' => __DIR__.'/../portalv4.log',
-));*/
+$app->register(new Silex\Provider\MonologServiceProvider(), array(
+    'monolog.logfile' => __DIR__.'/../log/portalv5.log',
+));
 
-//Chama a configuração do Doctrine para as entidades do portalv4
-//require_once __DIR__ . '/../config/database.php';
+//Chama a configuração do Doctrine para as entidades do portalv5
+require_once __DIR__ . '/../config/database.php';
 
 $app['debug'] = true;

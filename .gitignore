@@ -1,2 +1,9 @@
-vendor/*
-coverage/*
+vendor/
+public/vendor/
+.env
+node_modules
+coverage/
+portalv5.log
+.idea/
+build/
+composer.phar

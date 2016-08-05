@@ -1,0 +1,28 @@
+{
+  "name": "portalv4",
+  "version": "1.0.0",
+  "description": "Lembrar de alterar o nome da pasta do projeto no caso ela foi  criado com o nome portalv4, ou seja, se for necessario alterar o nome do projeto para o nome da sua empresa, por exemplo, piocoroSA entao voce devera altera o DocumentRoot e tambem o Directory",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melhoridadesa/portalv5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melhoridadesa/portalv5/issues"
+  },
+  "homepage": "https://github.com/melhoridadesa/portalv5",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.8"
+  }
+}
